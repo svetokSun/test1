@@ -21,6 +21,7 @@ body{
     display: inline-block;
     height: inherit;
     width: 10%;
+    min-width: 30px;
     cursor: pointer;
     border: 1px solid rgb(177, 233, 250);
 }
@@ -28,6 +29,7 @@ body{
     display: inline-block;
     height: inherit;
     width: 10%;
+    min-width: 30px;
     cursor: pointer;
 }
 .float-block {
@@ -47,13 +49,6 @@ body{
     bottom: 0;
     right: 0;
     left: 0;
-}
-.username{
-    height: 20px;
-    width: auto;
-    cursor: pointer;
-    border: 1px solid rgb(177, 233, 250);
-    background-color: cornsilk;
 }
 .button1{
     height: 20px;
@@ -76,13 +71,6 @@ body{
     left: 0;
     margin: auto;
 }
-.password{
-    height: 20px;
-    width: auto;
-    cursor: pointer;
-    border: 1px solid rgb(177, 233, 250);
-    background-color: cornsilk;
-}
 #message{
     height: 45px;
     width: 200px;
@@ -98,11 +86,13 @@ body{
 
 .form{
     font-size: 23px;
+}
 #button{
     height: 20px;
     width: auto;
     cursor: pointer;
     border: 1px solid rgb(177, 233, 250);
     background-color: cornsilk;
-    bottom: 25px;
+    bottom: 10px;
+}
     
