@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mushrooms</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
+    <link rel="icon" type="image" href="{% static 'core/img/favicon.png' %}">
+  </head>
+  <body>
+    <div class="header">
+      <p class="logo">Mushrooms</p>
+      <div class="button">Войти</div>
+      <div class="background" id="popup"></div>
+      <div class="float-block" id="popup">
+        <a href="/auth/logout">Выйти</a>
+        <a href="/auth/sign_up">Регистрация</a>
+        <form method="post" class="form">
+         <button type="submit">Log In</button>
+        </form>
+      </div>
+    </div>
+    <p>Здесь что-то будет</p>
+    <div class="somecontent">бла бла бла
+      <span class="phrase">Съешь же еще этих мягких французских булок
+        <img class="cursor" src="{% static 'core/img/favicon.png' %}">
+    </div>
+    <p class="footer"> БирюзоваяМорковкаПродакшен</p>
+    <p class="footer">Интернет помнит
+      <a href="https://eternity-django.herokuapp.com/">всё</a>
+    </p>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{% static 'core/js/script.js' %}"></script>
+    <script src="{% static 'core/js/floatBlock.js' %}"></script>
+    <script src="{% static 'core/js/message.js' %}"></script>  
+  </body>
+</html>
