@@ -87,7 +87,7 @@ body{
 .form{
     font-size: 23px;
 }
-#button{
+button{
     height: 20px;
     width: auto;
     cursor: pointer;
